@@ -16,8 +16,7 @@ public class ZoomLinkScheduler {
 	public void openZoomLink() {
 		try {
 			// 줌 링크
-			String zoomLink = "https://us06web.zoom.us/j/9457504897?pwd=VnkvLy9QRHNYTXd5WUFzN0lPb3NwUT09"; // 예배줌 링크
-//			String zoomLink = "https://us05web.zoom.us/j/7210200424?pwd=bWFiUHM2TFJjc1Y5Q0VnUDRGempmZz09"; // 형 예배줌 링크
+			String zoomLink = "zoomlink"; // 예배줌 링크
 
 			// 크롬을 실행하여 줌 링크 열기
 			Runtime.getRuntime().exec("cmd /c start chrome " + zoomLink);
